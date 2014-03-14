@@ -22,6 +22,18 @@
         font-size:20px;
         font-weight:bold;
         }
+        h3{
+        text-align:left;
+        color:#000;
+        font-size:14px;
+        font-weight:bold;
+        }
+        h4{
+        text-align:left;
+        color:#000;
+        font-size:9px;
+
+        }
         .columna-der{
         text-align:right;
         float:left;
@@ -70,12 +82,37 @@
                 padding:3px;
             opacity:0.90;
         }
-        .naranja{
+        .barracentroo {
+            position:fixed;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.5ex;
+            float: left;
+            z-index: 10000;
+            width:auto;
+            height:60px;
+            top: 177px;
+                left:38px;
+            text-align: left;
+                vertical-align: middle;
+                padding:3px;
+            opacity:0.90;
+            margin-bottom:0
+        }
+        .verde{
             border:1px solid #50903F;
             background-color:#50903F;
             filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#50903F', endColorstr='#50903F');
             background: -webkit-gradient(linear, left top, left bottom, from(#50903F), to(#50903F));
             background: -moz-linear-gradient(top, #50903F, #50903F);
+            color: #fff;
+
+        }
+        .verde2{
+            border:1px solid #C3D95E;
+            background-color:#C3D95E;
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#C3D95E', endColorstr='#C3D95E');
+            background: -webkit-gradient(linear, left top, left bottom, from(#C3D95E), to(#C3D95E));
+            background: -moz-linear-gradient(top, #C3D95E, #C3D95E);
             color: #fff;
 
         }
@@ -89,9 +126,13 @@
             <div class="columna-der">
                 <img src="../../Img/volcanes-color.png"; width: "100px"; height: "100px";/>
             </div>
-            <p class="barracentro naranja"></p>
+            <div class="barracentro verde">
+                <div class="barracentroo verde2">
+                    <h3>PASO 1</h3>
+                    <h4>datos personales</h4>
+            </div></div>
             
         </div>
     </div>
-    </div>
+
 </asp:Content>
