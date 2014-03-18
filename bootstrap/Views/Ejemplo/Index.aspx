@@ -13,13 +13,16 @@
             <div class="barracentro verde">
                 <div class="barracentroo verde2">
                     <span class="bmt">PASO 1</span>
-                    <span class="bmst">datos personales</span>
+                    <br />
+                    <span class="bmsst">datos personales</span>
             </div></div>
             <div class="aviso amarillo">
-                <div class="aviso amarillo">
-                    <span class="bmt">PASO 1</span>
-                    <span class="bmst">datos personales</span>
+                <div class="aviso amarillo"><img src="../../Img/icon-warning.png" class="alertimage" />
+                    <span class="bmtt">NOTA: </span>
+                    <span class="bmst">
+                        requiere que la informacion proporcionada sea correcta para poder proporcionar un servicios de calidad</span>
             </div></div>
+          <div class="botons">Descargar Manual</div>
             
         </div>
     </div>

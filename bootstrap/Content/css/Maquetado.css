@@ -29,13 +29,47 @@
 			font-size:14px;
 			font-weight:bold;
         }
+		 span.bmtt
+		{
+			padding-right:2px;
+			text-align:left;
+			font-size:14px;
+			font-weight:bold;
+			color:red;
+        }
         span.bmst
-		{	padding-left:-15px;
+		{
+			padding-left:-1px;
 			padding-top:-10px;
 			text-align:left;
 			color:#000;
 			font-size:11px;
+			font-weight:500;
+
         }
+		span.bmsst
+		{
+			word-spacing:.5em;
+			padding-left:-1px;
+			padding-top:-10px;
+			text-align:left;
+			color:#000;
+			font-size:11px;
+			font-weight:500;
+
+        }
+		.botons
+		{
+			position:fixed;
+			top:48%;
+			right:4%;
+			width:18%;
+			height:5%;
+			background-color:aqua;
+			padding-top:5px;
+			padding-right:8px;
+			text-align:right;
+		}
         .columna-der
 		{
 			text-align:right;
@@ -70,6 +104,14 @@
             -moz-column-count:3; /* Firefox */
             column-count:3;
         }
+		.alertimage
+		{
+			position:fixed;
+			width:30px;
+			height:35px;
+			left:25px;
+			padding-bottom:12px;
+		}
         .barracentro {
             position:fixed;
             font-family: Arial, Helvetica, sans-serif;
@@ -110,14 +152,16 @@
 			font-size: 1.5ex;
 			float: left;
 			width: 95%;
-			height: 30px;
+			height: 40px;
 			top: 242px;
 			left:2%;
 			right:2%;
-			text-align: center;
 			vertical-align: middle;
 			padding: 3px;
 			opacity: 0.90;
+			text-align:left;
+			padding-left:50px;
+			padding-top:10px;
 		}
         .verde
 		{
@@ -144,11 +188,11 @@
         }
 		.amarillo
 		{
-            border:1px solid #50903F;
-            background-color:#50903F;
-            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#50903F', endColorstr='#50903F');
-            background: -webkit-gradient(linear, left top, left bottom, from(#50903F), to(#50903F));
-            background: -moz-linear-gradient(top, #50903F, #50903F);
+            border:1px solid #F8F6CB;
+            background-color:#F8F6CB;
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F8F6CB', endColorstr='#F8F6CB');
+            background: -webkit-gradient(linear, left top, left bottom, from(#F8F6CB), to(#F8F6CB));
+            background: -moz-linear-gradient(top, #F8F6CB, #F8F6CB);
             color: #fff;
 
         }
