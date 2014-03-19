@@ -45,12 +45,10 @@
               </div> 
           </div>
            <div class="barraceentro">
+               <div class="barraceentro2">
                 <form class="form-horizontal">
                     <fieldset>
-
                     <!-- Form Name -->
-                    <legend>Form Name</legend>
-
                     <!-- Select Basic -->
                     <div class="form-group">
                       <label class="col-md-4 control-label" for="selectbasic">Tipo de Documento</label>
@@ -84,32 +82,24 @@
                       <label class="col-md-4 control-label" for="textinput">Segundo Apellido</label>  
                       <div class="col-md-8">
                       <input id="text2" name="textinput" type="text" placeholder="Sin acentos" class="form-control input-md">
-    
+                       
                       </div>
                     </div>
 
                     <!-- Text input-->
-                    <div class="form-group">
-                      <label class="col-md-4 control-label" for="textinput">Fecha de Nacimiento</label>  
-                      <div class="col-md-4">
-                      <input id="text3" name="textinput" type="text" placeholder="NACIMIENTO" class="form-control input-md">
-    
-                      </div>
-                    </div>
-
-                    <!-- Button (Double) -->
-                    <div class="form-group">
-                      <label class="col-md-4 control-label" for="button1id"></label>
-                      <div class="col-md-8">
-                        <button id="button1id" name="button1id" class="btn btn-default">Mostrar Acta</button>
+                      <div class="form-group">
+                      <label class="col-md-4 control-label" for="textinput">Fecha de Nacimiento</label> 
+                          <div class="col-md-4"> 
+                      <input id="text3" name="textinput" type="text" placeholder="NACIMIENTO" class="form-control input-md">  
+                     </div><button id="button1id" name="button1id" class="btn btn-default">Mostrar Acta</button>
                         <button id="button2id" name="button2id" class="btn btn-default">Siguiente</button>
-                      </div>
-                    </div>
+                          </div>
 
                     </fieldset>
                     </form>
-
+               
                 </div>
+           </div>
         </div>
     </div>
 
