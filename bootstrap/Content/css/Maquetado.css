@@ -211,6 +211,26 @@
 			padding-top:10px;
 			word-wrap: break-word; 
 		}
+		.pdf
+		{
+			position: fixed;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 1.5ex;
+			float: left;
+			width: 50%;
+			height: 50px;
+			top: 80%;
+			left:2%;
+			right:2%;
+			vertical-align: middle;
+			padding: 3px;
+			opacity: 0.90;
+			text-align:left;
+			padding-left:10px;
+			padding-top:10px;
+			word-wrap: break-word; 
+			margin-left:25%;
+		}
         .verde
 		{
             border:1px solid #50903F;
@@ -250,7 +270,7 @@
             font-size: 1.5ex;
             float: left;
             z-index: 10000;
-            width:55%;
+            width:70%;
             height:auto;
             top: 340px;
             left:10%;
@@ -259,9 +279,12 @@
             padding:3px;
             opacity:0.90;
 			padding-top:3%;
+			padding-left:2%;
+			margin-bottom:5%;
+			margin-left:10%;
         }
 				.barraceentro {
-			border:double;
+			border:groove;
             position:fixed;
             font-family: Arial, Helvetica, sans-serif;
             font-size: 1.5ex;
@@ -306,24 +329,44 @@
 		font-size:8px;
 
 	}
+	 	.barraceentro
+	{
+			height: 430px;
+	}
+	.btn
+	{
+		margin-top:4%;
+		margin-left:10%;
+	}
 }
 @media only screen and (min-width:636px)
 {
 
-		.botones3
+	.botones3
 	{
-		right:25%;
-
+		right: 25%;
 	}
-
+		
 }
 @media only screen and (min-width:1023px)
 {
 
 		.botones3
-	{
-		right:20%;
+		{
+			right: 20%;
+		}
+}
 
-	}
+@media only screen and (min-width:500px) and (max-width:990px)
+{
+		.barraceentro
+		{
+			height: 430px;
+		}
+		.btn
+		{
+			margin-top:4%;
+			margin-left:10%;
+		}
 
 }

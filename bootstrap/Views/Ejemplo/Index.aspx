@@ -31,7 +31,6 @@
                     <span class="bmst">
                         requiere que la informacion proporcionada sea correcta para poder proporcionar un servicios de calidad</span>
             </div></div>
-            <a href="../../Img/1395183562_183249.ico" ></a>
           <div class="botones">
               <div class="botones2">
                   <img src="../../Img/Imagen2.png" class="alertimage2"></img>
@@ -97,7 +96,12 @@
 
                     </fieldset>
                     </form>
-               
+               <div class="pdf amarillo">
+                <div class="pdf amarillo"><img src="../../Img/icon-warning.png" class="alertimage" />
+                    <span class="bmtt">NOTA: </span>
+                    <span class="bmst">
+                        requiere que la informacion proporcionada sea correcta para poder proporcionar un servicios de calidad</span>
+            </div></div>
                 </div>
            </div>
         </div>
